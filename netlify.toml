@@ -1,0 +1,25 @@
+# netlify.toml
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/about"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/service"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/contact"
+  to = "/index.html"
+  status = 200
+  force = true
